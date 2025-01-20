@@ -15,5 +15,5 @@ jobs:
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ variables.CLOUDFLARE_ACCOUNT_ID }}
+          accountId: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
           workingDirectory: "web"
