@@ -4,12 +4,10 @@
  */
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "web",
+  "name": "r2-repair-web",
   "main": "./dist/_worker.js/index.js",
   "compatibility_date": "2025-01-09",
-  "compatibility_flags": [
-    "nodejs_compat"
-  ],
+  "compatibility_flags": ["nodejs_compat"],
   "assets": {
     "binding": "ASSETS",
     "directory": "./dist"
